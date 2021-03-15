@@ -17,7 +17,7 @@ jobs:
         node-version: '10.14.2'
 
     - run: yarn install
-<<<<<<< HEAD
+
     - name: Install JUnit coverage reporter
       run: yarn add --dev jest-junit
     - name: Run tests with JUnit as reporter
@@ -28,8 +28,4 @@ jobs:
       with:
         path: ./junit/test-results.xml
       if: always()
-=======
-    - run: yarn test
-    
-     
->>>>>>> origin/master
+
