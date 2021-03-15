@@ -1,4 +1,5 @@
 # damage-calc
+![](https://github.com/senarice/damage-calc-4005-gh-actions/workflows/Damage Calculation Test/badge.svg)
 このモジュールでは、ダメージ計算を行うことができます。  
 ダメージ計算には
 
